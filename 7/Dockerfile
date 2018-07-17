@@ -8,4 +8,4 @@ RUN yum-config-manager --enable ol7_developer_EPEL ol7_optional_latest && \
     yum upgrade -y && \
     install_packages openssl-libs postgresql-libs
 
-ENV BITNAMI_IMAGE_VERSION=7-r10
+ENV BITNAMI_IMAGE_VERSION=7-r11
