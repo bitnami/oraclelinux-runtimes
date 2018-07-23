@@ -6,6 +6,6 @@ COPY rootfs /
 
 RUN yum-config-manager --enable ol7_developer_EPEL ol7_optional_latest && \
     yum upgrade -y && \
-    install_packages openssl-libs postgresql-libs tar
+    install_packages openssl-libs postgresql-libs tar gzip
 
-ENV BITNAMI_IMAGE_VERSION=7-r18
+ENV BITNAMI_IMAGE_VERSION=7-r19
