@@ -5,7 +5,7 @@
 ## TL;DR
 
 ```dockerfile
-FROM bitnami/oraclelinux-runtimes:jessie
+FROM bitnami/oraclelinux-runtimes:7
 ```
 
 ## About
@@ -21,7 +21,7 @@ Use like a regular base image.
 The following example uses the `install_packages` helper script to install APT packages from the Oracle Linux repositories. The `bitnami-pkg` tool to install `nami` packages published by Bitnami.
 
 ```dockerfile
-FROM bitnami/oraclelinux-runtimes:jessie
+FROM bitnami/oraclelinux-runtimes:7
 ENV BITNAMI_APP_NAME=apache
 RUN install_packages apr apr-util glibc libuuid expat pcre openldap cyrus-sasl-lib gnutls zlib p11-kit
 ...
